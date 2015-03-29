@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Mario</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <!-- endbuild -->
+</head>
+  <body>
+        <div id="game-container" style="margin-left: 20px;">
+
+        </div>
+
+        <!-- build:js(app) scripts/bower_components.js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/crafty.js -->
+        <script src="libs/Crafty/crafty.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/crafty_debug.js -->
+        <script src="libs/CraftyDebug/craftyDebug.js"></script>
+        <script src="libs/CraftyDebug/panels/assets.js"></script>
+        <script src="libs/CraftyDebug/panels/entities.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js(.tmp) scripts/combined-scripts.js -->
+        <!--<script src="scripts/combined-scripts.js"></script>-->
+        <!-- endbuild -->
+
+        <script src="scripts/game.js"></script>
+        <script src="scripts/components/sprite.js"></script>
+        <script src="scripts/components/cell.js"></script>
+        <script src="scripts/components/actor.js"></script>
+        <script src="scripts/components/border.js"></script>
+        <script src="scripts/components/block.js"></script>
+        <script src="scripts/components/start.js"></script>
+        <script src="scripts/components/end.js"></script>
+        <script src="scripts/components/player.js"></script>
+        <script src="scripts/scenes/scene1.js"></script>
+</body>
+</html>
